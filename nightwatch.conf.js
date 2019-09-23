@@ -12,6 +12,7 @@ nightwatch_config = {
         'browserstack.key': process.env.BROWSERSTACK_ACCESS_KEY,
         'browser': 'chrome',
         'name': 'Bstack-[Nightwatch] Sample Test'
+        'build': 'BSSupport_M'
       }
     }
   }
