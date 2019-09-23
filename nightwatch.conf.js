@@ -8,8 +8,8 @@ nightwatch_config = {
   test_settings: {
     default: {
       desiredCapabilities: {
-        'browserstack.user': process.env.user,
-        'browserstack.key': process.env.key,
+        'browserstack.user': process.env.BROWSERSTACK_USERNAME,
+        'browserstack.key': process.env.BROWSERSTACK_ACCESS_KEY,
         'browser': 'chrome',
         'name': 'Bstack-[Nightwatch] Sample Test'
       }
